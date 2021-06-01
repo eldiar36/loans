@@ -1,0 +1,686 @@
+
+@media (min-width: 1590px) {
+    #advantages .container {
+        max-width: 86%;
+    }
+    #consultation .con-box {
+        grid-column-gap: 125px;
+    }
+    }
+@media (min-width: 1800px) {
+    #consultation .con-box {
+        grid-column-gap: 160px;
+    }
+    #advantages .container {
+        max-width: 82%;
+    }
+}
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 0 50px;
+    }
+
+    #conditions {
+        margin-top: -55px;
+    }
+
+    #conditions .conditions-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px;
+    }
+
+    #quiz-box .right {
+        bottom: -6px;
+        right: 20px;
+    }
+
+    #what-use .use-box {
+        padding: 0 100px 0 100px;
+    }
+
+    #what-use .use-box-two {
+
+        padding: 0 170px;
+    }
+
+    #advantages .advantages-box {
+        border-radius: 12px;
+        padding: 40px 30px 20px 30px;
+    }
+
+    #advantages .advantages-box .box {
+        max-width: 100%;
+    }
+
+    #advantages .container {
+        padding: 0 30px;
+    }
+
+    #advantages .advantages-box .wrap {
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 30px;
+    }
+
+    #advantages .container,
+    #contacts .container,
+    #consultation .container {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #consultation .con-box {
+
+        grid-template-columns: 0.5fr 0.5fr;
+    }
+
+    .footer-box .subtitle {
+        margin: 0 100px 0 40px;
+    }
+}
+@media (max-width: 1024px) {
+    .white-popup-block {
+        width: 100%;
+    }
+    #home .home-box {
+        grid-template-columns: 1fr;
+        padding-bottom: 600px;
+    }
+    #home .info {
+        padding: 104px 0 0 0;
+    }
+    #home .home-box:after {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        width: 102%;
+    }
+    #conditions .conditions-box {
+        grid-template-columns: 1fr;
+    }
+    #what-use .use-box {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    #what-use .box:nth-child(4) p {
+        margin-top: 76px;
+    }
+
+    #what-use .use-box-two {
+        padding: 0;
+    }
+
+    #what-use .use-box .box {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reasons .reason-box {
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+    }
+
+    #quiz_form {
+        width: 100%;
+        padding: 30px 30px 0 30px;
+    }
+
+    #quiz-box .step-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    #design-project {
+        grid-template-columns: 1fr;
+    }
+    #design-project .quiz_buttons {
+        margin-top: 0;
+        order: 8;
+    }
+    #quiz-box .right {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-bottom: -5px;
+    }
+
+    #type-home > *, #type-repair > * {
+        width: 100%;
+    }
+
+    #advantages .advantages-box {
+        border-radius: 12px;
+        padding: 40px 30px 60px 30px;
+    }
+
+    #consultation .con-box {
+        grid-template-columns: 1fr;
+    }
+
+    #consultation {
+        padding: 35px 0 70px 0
+    }
+
+    #consultation .section-title {
+        padding: 0 50px;
+    }
+
+    #consultation:after {
+        display: none;
+    }
+
+    #contacts .contacts-wrap {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+        grid-gap: 30px;
+    }
+
+    footer .footer-box {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer-box .left, .footer-box .right {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-box .left, .footer-box .left {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer-box .left, .footer-box .left .subtitle {
+        margin: 13px 0 23px 0;
+    }
+
+    .footer-box .logo {
+        margin-right: 0;
+    }
+}
+@media (max-width: 767px) {
+    .white-popup-block {
+        padding: 34px 20px 28px 20px;
+    }
+    .white-popup-block .section-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .white-popup-block label {
+        font-size: 12px;
+        line-height: 19px;
+        padding: 0 4px 0 8px;
+        left: 10px;
+    }
+    .white-popup-block input {
+        height: 56px;
+        padding: 17px 16px;
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
+    .select__list{
+        height: 56px;
+        top: 56px;
+    }
+    .select__head,
+    .select__list .select__item {
+        height: 56px;
+        padding: 17px 16px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .white-popup-block .btn {
+        width: 100%;
+        height: 56px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .container {
+        padding: 0 16px;
+    }
+
+    header .header-box .logo-box a {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    header .header-box .logo-box span {
+        display: none;
+    }
+
+    header .header-box .info-box .mail {
+        display: none;
+    }
+
+    header .header-box .info-box .number-box a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #home .home-box {
+        padding-bottom: 290px;
+    }
+
+    #home .home-box:after {
+        width: 100%;
+        background: url("../images/Layer 0 2.png") no-repeat;
+        background-size: cover;
+        height: 275px;
+        left: 0;
+    }
+
+    #home .info {
+        padding: 36px 0 0 10px;
+    }
+
+    #home .info p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 8px;
+    }
+
+    #home .info .button {
+        font-size: 13px;
+        line-height: 15px;
+        padding: 0 13px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        width: 226px;
+        margin: 0 auto;
+    }
+
+    #home .info p br {
+        display: none;
+    }
+
+    #home .info h1 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    #conditions .conditions-box .box span {
+        font-size: 14px;
+        line-height: 19px;
+        margin-left: 0;
+    }
+
+    #conditions .conditions-box .box {
+        padding: 22px 20px 22px 22px;
+        display: grid;
+        grid-template-columns: 67px auto;
+        grid-column-gap: 5px;
+    }
+
+    #conditions .conditions-box {
+        grid-template-columns: 1fr;
+        max-width: 240px;
+        margin: 0 auto;
+        grid-row-gap: 15px;
+    }
+
+    #conditions .conditions-box .box:first-child img {
+        width: 60px;
+    }
+
+    #conditions .conditions-box .box:nth-child(2) img {
+        width: 60px;
+    }
+
+    #conditions .conditions-box .box:nth-child(3) img {
+        width: 60px;
+    }
+
+    #conditions .conditions-box .box:nth-child(4) img {
+        width: 65px;
+    }
+
+    #conditions .warning {
+        max-width: 100%;
+        padding-top: 53px;
+    }
+
+    #conditions .warning .war-text {
+        padding: 39px 21px 58px 21px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #conditions .war-text:after {
+        width: 73px;
+        height: 65px;
+        right: 21px;
+        bottom: -33px;
+    }
+
+    #conditions .warning .section-title {
+        margin-bottom: 16px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    #quiz-box {
+        padding: 70px 0 40px 0;
+    }
+
+    .section-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    #quiz-box .section-title {
+        margin-bottom: 28px;
+    }
+
+    #quiz {
+        padding: 0;
+
+    }
+
+    .quiz-title {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 17px 0 17px 0
+    }
+
+    #quiz_form {
+        width: 100%;
+        padding: 0;
+        border-radius: 12px;
+    }
+    #progress_bar, #progress_bar-two {
+        top: 56px;
+    }
+    .design-wrapper{
+        padding: 29px 20px 20px 20px;
+    }
+    #quiz_form .step-wrapper{
+        padding: 29px 20px 0 20px;
+    }
+    #quiz h2 {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 24px !important;
+    }
+
+    #quiz-box label {
+        padding: 18px 19px 18px 32px;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: left;
+    }
+
+    #step5 label {
+        padding: 7px 10px 7px 20px;
+    !important;
+        font-size: 13px !important;
+        line-height: 9px !important;
+        text-align: left;
+    }
+
+    .quiz_buttons {
+        margin-top: 9px;
+        justify-content: center;
+    }
+
+    #quiz-box .step-wrapper {
+        grid-gap: 0;
+    }
+
+    .quiz_buttons .btn {
+        margin: 0 auto;
+    }
+
+    #design-project {
+        grid-row-gap: 15px;
+    }
+    #contact_fields > *, #contact_fields-two > * {
+        width: 100%;
+    }
+    #quiz-box .step-wrapper {
+        grid-gap: 30px;
+    }
+    #what-use {
+        padding: 40px 0 34px 0;
+    }
+
+    #what-use .use-box {
+        grid-gap: 57px;
+        grid-template-columns: 1fr;
+        margin-bottom: 57px;
+    }
+
+    #what-use .box p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #what-use .box:nth-child(2) p,
+    #what-use .box:nth-child(3) p,
+    #what-use .box:nth-child(4) p,
+    #what-use .box:first-child p {
+        margin-top: 0;
+    }
+
+    #what-use .use-box-two {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 57px;
+    }
+
+    #what-use .box {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #reasons {
+        padding: 35px 0 57px 0;
+    }
+
+    #reasons .reason-box {
+        grid-gap: 16px;
+    }
+
+    #reasons .reason-box .box:before {
+        width: 57px;
+        height: 57px;
+    }
+
+    #reasons .reason-box .box:after {
+        right: 11px;
+        bottom: 11px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    #reasons .reason-box .title-box .title {
+        font-size: 24px;
+        line-height: 38px;
+        margin-bottom: 0;
+    }
+
+    #reasons .reason-box .title-box p {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    #reasons .reason-box .title-box {
+        padding: 0 10px 18px 10px;
+    }
+
+    #reasons .reason-box .box {
+        padding: 16px 18px 16px 18px;
+    }
+
+    #reasons .reason-box .box .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #reasons .reason-box .box p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #advantages .container {
+        padding: 0;
+    }
+
+    #advantages .advantages-box .wrap {
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        grid-row-gap: 45px;
+    }
+
+    #advantages .advantages-box .box .title {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 10px 0 7px 0;
+    }
+
+    #advantages .advantages-box .box p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    #advantages .advantages-box .box p br {
+        display: none;
+    }
+    #stages {
+        padding: 50px 0;
+    }
+    #stages .section-title {
+        margin-bottom: 37px;
+    }
+
+    #stages .stages-box .num {
+        display: none;
+    }
+
+    #stages .stages-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px 26px 25px 20px;
+    }
+
+    #stages .stages-box .text {
+        font-size: 14px;
+        line-height: 19px
+    }
+
+    #stages .content_block.hide {
+        height: 75px;
+    }
+
+    #stages .content_block.hide:after {
+        height: 50px;
+    }
+    #consultation {
+        padding: 28px 0 50px 0;
+    }
+    #consultation .section-title {
+        padding: 0 16px;
+        margin-bottom: 21px;
+    }
+    #consultation .form-box {
+        padding: 20px 20px 40px 20px
+    }
+    #consultation .form-box .title {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 36px;
+    }
+    #consultation .form-box label {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 0 7px 0 10px;
+        top: -7px;
+        left: 23px;
+    }
+    #consultation .form-box input {
+        padding: 20px 33px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    #consultation .btn {
+        padding: 0;
+        width: 220px;
+        height: 56px;
+        margin: 10px auto 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #consultation .personal .img {
+        text-align: center;
+    }
+    #consultation .personal .img img {
+        width: 242px;
+        height: 242px;
+    }
+    #consultation .personal .img:before {
+        width: 95px;
+        height: 89px;
+        left: -18px;
+        bottom: -3px;
+    }
+    #consultation .personal .name {
+        margin: 17px 0 10px 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #consultation .personal .job {
+        font-size: 14px;
+        line-height: 19px
+    }
+    #consultation .personal .job br{
+        display: none;
+    }
+    #contacts {
+        padding: 35px 0 24px 0;
+    }
+    #contacts .info {
+        padding-top: 0;
+    }
+    #contacts .info .title, #contacts .info p, #contacts .info .ex {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    #contacts .contacts-wrap {
+        grid-gap: 24px;
+    }
+    #contacts .button1 {
+        width: 220px;
+        height: 56px;
+        font-size: 14px;
+        line-height: 19px;
+        margin: 45px auto 0 auto;
+        background: #595FF1;
+        color: #FFFFFF;
+    }
+    #contacts iframe {
+        height: 360px;
+        border-radius: 8px;
+    }
+    footer .footer-box .policy {
+        font-size: 10px;
+        line-height: 14px;
+        text-decoration-line: underline;
+    }
+    .footer-box .left, .footer-box .left .subtitle {
+        margin: 13px 0 23px 0;
+    }
+}
