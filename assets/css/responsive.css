@@ -132,9 +132,18 @@
 
     #quiz_form {
         width: 100%;
+        padding: 0;
+    }
+    #step0 .step-wrapper,
+    #step2 .step-wrapper,
+    #step3 .step-wrapper,
+    #step4 .step-wrapper,
+    #step5 .step-wrapper{
         padding: 30px 30px 0 30px;
     }
-
+    .design-wrapper{
+        padding: 30px;
+    }
     #quiz-box .step-wrapper {
         display: grid;
         grid-template-columns: 1fr;
@@ -207,6 +216,7 @@
     .footer-box .logo {
         margin-right: 0;
     }
+
 }
 @media (max-width: 767px) {
     .white-popup-block {
