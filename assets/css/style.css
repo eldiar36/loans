@@ -447,9 +447,10 @@ header .header-box .info-box .number-box a {
     width: 1072px;
     margin-left: auto;
     display: grid;
-   grid-template-columns: 304px 345px 363px;
+    grid-template-columns: 304px 345px 363px;
     justify-content: space-between;
     margin-bottom: 22px;
+    row-gap: 23px;
 }
 #advantages .advantages-box .box {
     max-width: 400px;
@@ -516,9 +517,7 @@ header .header-box .info-box .number-box a {
     color: #000000;
     transition: .4s ease;
 }
-#stages .stages-box svg path{
-    transition: .4s linear;
-}
+
 #stages .stages-box:hover svg path{
     fill:#8C90FF;
 }
@@ -594,8 +593,7 @@ header .header-box .info-box .number-box a {
 #quiz_form-two
 {width: 100%;
 
-    border: 1px solid #D3D3D3;
-    border-radius:  10px;
+
     position: relative;
 }
 #quiz-box .right ,
@@ -608,6 +606,20 @@ header .header-box .info-box .number-box a {
 #quiz-box-two .step-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+    border-radius: 0 0  10px 10px;
+}
+.design-wrapper{
+    border-left: 1px solid #D3D3D3;
+    border-right: 1px solid #D3D3D3;
+    border-bottom: 1px solid #D3D3D3;
+    border-radius: 0 0  10px 10px;
+}
+.design-wrapper label{
+    padding: 20px 22px;
+    font-size: 16px;
 }
 #quiz-box h2 ,
 #quiz-box-two h2 {
@@ -860,13 +872,13 @@ header .header-box .info-box .number-box a {
     background: rgba(84, 168, 251, 0.2);
     position: absolute;
     left: 0;
-    top: 73px;
+    top: 72px;
 }
 #progress_in-two,
 #progress_in{
     width: 0%;
     height: 100%;
-    background: #54a8fb;
+    background: #595FF1;
     transition: all 0.3s ease;
     -o-transition: all 0.3s;
     -webkit-transition: all 0.3s ease 0s;
@@ -993,7 +1005,7 @@ header .header-box .info-box .number-box a {
     margin-right: 0;
 }
 #contacts .section-title{
-    margin-bottom: 17px;
+    margin-bottom: 48px;
 }
 #contacts {
     padding: 62px 0 88px 0;

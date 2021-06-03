@@ -53,7 +53,7 @@ jQuery(document).ready(function ($) {
 
 /*second*/
 
-var steps = [false, false, false, false, false,false,false,false];
+var steps = [false, false, false, false, false,false,false];
 var curr_step = 0;
 
 // переходы по шагам
