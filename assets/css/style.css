@@ -147,6 +147,35 @@ header .header-box .info-box .number-box a {
     max-width: 270px;
     position: relative;
     z-index: 100;
+    transition: .3s ease-out;
+}
+#home .info .button:hover{
+    background: #595FF1;
+    color: #FFFFFF;
+}
+.button1{
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #595FF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #595FF1;
+    transition: .3s ease;
+}
+.button1:hover{
+    background: #595FF1;
+    color: #FFFFFF;
+}
+.btn{
+    transition: .3s ease;
+}
+.btn:hover{
+    transform: translateY(-2px);
 }
 #conditions {
     margin-top: -55px;
@@ -452,6 +481,9 @@ header .header-box .info-box .number-box a {
     left: 0;
     bottom: 0;
 }
+#stages .text span{
+    display: none;
+}
 #stages .content_toggle img {
     margin-left: 10px;
 }
@@ -501,7 +533,7 @@ header .header-box .info-box .number-box a {
 {width: 100%;
 
     border: 1px solid #D3D3D3;
-    border-radius: 0 0 10px 10px;
+    border-radius:  10px;
     position: relative;
 }
 #quiz-box .right ,
@@ -533,7 +565,6 @@ header .header-box .info-box .number-box a {
 }
 #step2,#step0  #step4, #step5, #step6
  {display: none;
-
 }
 #step2-two,  #step4-two, #step5-two, #step6-two{
     display: none;
@@ -643,6 +674,9 @@ header .header-box .info-box .number-box a {
     grid-column-gap: 40px;
     grid-row-gap: 16px;
 }
+#step6 {
+    display: block;
+}
 #design-project .quiz_buttons,
 #design-project-two .quiz_buttons{
     margin-top: 20px;
@@ -651,7 +685,53 @@ header .header-box .info-box .number-box a {
 #design-project-two div {
     display: flex;
 }
-
+#step6 .step-wrapper {
+    padding: 30px 190px 30px 118px;
+    height: 448px;
+    grid-template-columns: 1.7fr 1fr;
+    grid-column-gap: 15px;
+    position: relative;
+    z-index: 10;
+}
+#step6 .step-wrapper:after{
+    content: "";
+    width: 55%;
+    height: 83%;
+    background: url("../images/Ellipse 17 (1).png")no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+}
+#step6 .step-wrapper .img{
+    position: relative;
+}
+#step6 .step-wrapper .img:before {
+    content: "";
+    background: url('../images/iPhone X Mockup new 1.png')no-repeat;
+    background-size: cover;
+    width: 109px;
+    height: 103px;
+    position: absolute;
+    left: -18px;
+    bottom: 12px;
+}
+#step6 .right{
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+#step6 .step-wrapper .left{
+    padding-top: 118px;
+}
+#step6 .name{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #333333;
+}
 .step-quest > div > input {
     padding: 22px 33px;
     width: 100%;
@@ -659,8 +739,11 @@ header .header-box .info-box .number-box a {
     border-radius: 5px;
     font-size: 18px;
     line-height: 25px;
-    color: #D5CBCB;
+    color: #000000;
     text-align: left;
+}
+.step-quest > div > input::placeholder{
+    color: #D5CBCB;
 }
 #step5 label ,
 #step5-two label {
@@ -780,9 +863,12 @@ header .header-box .info-box .number-box a {
     width: 100%;
     font-size: 18px;
     line-height: 25px;
-    color: #D5CBCB;
+    color: #000000;
     border-radius: 8px;
     margin-bottom: 28px;
+}
+#consultation .form-box input::placeholder {
+    color: #D5CBCB;
 }
 #consultation .form-box .wrap{
     position: relative;
@@ -877,21 +963,10 @@ header .header-box .info-box .number-box a {
 #contacts .button1{
     width: 265px;
     height: 65px;
+
     margin-top: 35px;
 }
-.button1{
-    border-radius: 4px;
-    background: #FFFFFF;
-    border: 1px solid #595FF1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
-    text-align: center;
-    color: #595FF1;
-}
+
 #contacts iframe{
     border: none;
     width: 100%;
@@ -962,10 +1037,12 @@ footer .footer-box{
     border-radius: 8px;
     font-size: 18px;
     line-height: 25px;
-    color: #D5CBCB;
+    color: #000000;
     margin-bottom: 32px;
 }
-
+.white-popup-block  input::placeholder{
+     color: #D5CBCB;
+}
 .white-popup-block label {
     font-size: 16px;
     line-height: 22px;
@@ -1051,10 +1128,17 @@ footer .footer-box{
     left: 0;
     right: 0;
     width: 100%;
-    height: 72px;
     color: #D5CBCB;
     overscroll-behavior: contain;
     z-index: 100;
+    padding: 0 19px;
+    border: 1px solid #D3D3D3;
+    background: #FFFFFF;
+    border-radius: 0 0 8px 8px;
+}
+.select__head.open {
+    border-radius: 8px 8px 0 0;
+    color: #FFFFFF;
 }
 .select__list::-webkit-scrollbar {
     width: 7px;
@@ -1067,19 +1151,21 @@ footer .footer-box{
 }
 .select__list .select__item {
     position: relative;
-    border: 1px solid #D3D3D3;
     width: 100%;
     height: 72px;
     background: #FFFFFF;
-    padding: 22px 33px;
-    border-radius: 8px;
+    padding: 22px 14px;
+    border-bottom: 1px solid #EFEFEF;;
     font-size: 18px;
     line-height: 25px;
     color: #D5CBCB;
     z-index: 1000;
 }
+.select__list .select__item:last-child{
+    border-bottom: 0;
+}
 .select__list .select__item:hover {
-    background-color: #D3D3D3;
+    background: #8C90FF;
     color: #FFFFFF;
 
 }

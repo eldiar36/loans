@@ -129,7 +129,15 @@
         grid-template-columns: 1fr;
         grid-gap: 32px;
     }
-
+    #step6 .step-wrapper {
+        padding: 30px 60px 30px 60px;
+        height: auto;
+        text-align: center;
+    }
+    #step6 .step-wrapper .img {
+        max-width: 360px;
+        margin: 0 auto;
+    }
     #quiz_form {
         width: 100%;
         padding: 0;
@@ -219,6 +227,7 @@
 
 }
 @media (max-width: 767px) {
+
     .white-popup-block {
         padding: 34px 20px 28px 20px;
     }
@@ -430,6 +439,8 @@
         font-size: 14px;
         line-height: 19px;
         text-align: left;
+        display: grid;
+        grid-template-columns: auto 15px
     }
 
     #step5 label {
@@ -579,7 +590,9 @@
     #stages .stages-box .num {
         display: none;
     }
-
+    #stages .text span{
+        display: inline-block;
+    }
     #stages .stages-box {
         display: grid;
         grid-template-columns: 1fr;
@@ -692,5 +705,22 @@
     }
     .footer-box .left, .footer-box .left .subtitle {
         margin: 13px 0 23px 0;
+    }
+    #step5 .policy, #step5-two .policy {
+        width: 90%;
+
+    }
+    #step5 .btn, #step5-two .btn {
+
+        width: 100%;
+    }
+    #step6 .step-wrapper .left {
+        padding-top: 45px;
+    }
+    #step6 .step-wrapper {
+        padding: 20px;
+    }
+    #step6 .step-wrapper .name br {
+        display: none;
     }
 }
