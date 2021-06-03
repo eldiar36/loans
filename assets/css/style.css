@@ -422,6 +422,9 @@ header .header-box .info-box .number-box a {
     line-height: 25px;
     color: #000000;
 }
+#advantages{
+    position: relative;
+}
 #advantages .container {
     max-width: 92%;
     margin-left: 0;
@@ -429,11 +432,16 @@ header .header-box .info-box .number-box a {
 }
 #advantages .section-title {
     margin-bottom: 40px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40px;
 }
 #advantages .advantages-box {
     background: linear-gradient(244.18deg, #595FF1 33.69%, #8C90FF 90.44%), #595FF1;
     border-radius: 0 12px 12px 0;
-    padding: 40px 30px 20px 0;
+    padding: 120px 30px 20px 0;
 }
 #advantages .advantages-box .wrap {
     width: 1072px;
