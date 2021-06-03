@@ -224,7 +224,10 @@
     .footer-box .logo {
         margin-right: 0;
     }
+    #popup-ok {
+        padding: 84px 30px 109px 30px;
 
+    }
 }
 @media (max-width: 767px) {
 
